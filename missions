@@ -1,0 +1,187 @@
+// mission 1 
+    Console.Write("First Number = ");
+    int first = int.Parse(Console.ReadLine());
+
+    Console.Write("Second Number = ");
+    int second = int.Parse(Console.ReadLine());
+
+if (first > second)
+{
+    Console.WriteLine(first);
+}  
+else if (second > first)
+{ Console.WriteLine(second); 
+}
+
+// mission 2 
+
+  Console.Write("First Number = ");
+    int first = int.Parse(Console.ReadLine());
+
+    Console.Write("Second Number = ");
+    int second = int.Parse(Console.ReadLine());
+int x = first / second;
+int y = second / first;
+Console.WriteLine(x);
+Console.WriteLine(y);
+
+// mission 3 
+
+
+    Console.Write("First Number = ");
+    int first = int.Parse(Console.ReadLine());
+
+    Console.Write("Second Number = ");
+    int second = int.Parse(Console.ReadLine());
+
+if (first > second)
+{
+    Console.WriteLine(second);
+    Console.WriteLine(first);
+}
+else if  (second > first)
+        { 
+    Console.WriteLine(first);
+Console.WriteLine(second);
+}
+  
+  // mission 4 
+  
+      Console.Write("First Number = ");
+    int first = int.Parse(Console.ReadLine());
+
+if (first > 0)
+{
+    Console.WriteLine("Positive");
+}
+else if (first < 0)
+    Console.WriteLine("Negative");
+else if (first == 0)
+    Console.WriteLine("You chose zero! ");
+    
+    // mission 5 
+    
+    if (first == 1)
+    Console.WriteLine("One");
+else if (first == 2)
+    Console.WriteLine("Two");
+else if (first == 3)
+    Console.WriteLine("Three");
+else if (first == 4)
+    Console.WriteLine("Four");
+else if (first == 5)
+    Console.WriteLine("Five");
+else if (first == 6)
+    Console.WriteLine("Six");
+else if (first == 7)
+    Console.WriteLine("Seven");
+else if (first == 8)
+    Console.WriteLine("Eight");
+else if (first == 9)
+    Console.WriteLine("Nine");
+else if (first == 10)
+    Console.WriteLine("Ten");
+else if (first <= 11 || first >= 0)
+    Console.WriteLine("You chose an incorrect number!");
+    
+    // mission 6 
+    
+    Console.WriteLine("Please enter your name: ");
+Console.ReadLine();
+Console.WriteLine("Please enter your salary");
+int salary = int.Parse(Console.ReadLine());
+double x = salary * 1.1;
+double y = salary * 1.05;
+
+if (x < 6000)
+    Console.WriteLine("Your new salary is " + x );
+else if (y > 6000)
+    Console.WriteLine("Your new salary is " +  y);
+
+
+// mission 7 
+
+Console.Write("Please enter a number: ");
+int x = int.Parse(Console.ReadLine());
+Console.Write("Please enter a second number :");
+int y = int.Parse(Console.ReadLine());
+Console.Write("Please enter a third number ");
+int z = int.Parse(Console.ReadLine());
+if (y > x && z > y)
+    Console.WriteLine(y + " " + z);
+
+
+// mission 8 
+
+Console.Write("Please enter a number: ");
+int x = int.Parse(Console.ReadLine());
+Console.Write("Please enter a second number: ");
+int y = int.Parse(Console.ReadLine());
+Console.Write("Please enter a third number: ");
+int z = int.Parse(Console.ReadLine());
+if (y > x && z < y )
+    Console.WriteLine(y);
+else if (z > x && z > y)
+    Console.WriteLine(z);
+else if (x > y && x > z )
+    Console.WriteLine(x);
+    
+// mission 9
+
+Console.Write("Please enter a number between 1-9999: ");
+int x = int.Parse(Console.ReadLine());
+if (x > 9999 || x <= 0)
+    Console.WriteLine("Wrong number ");
+else if  (x < 10)
+    Console.WriteLine("You chose a single digit number ");
+else if (x < 100)
+    Console.WriteLine("You chose a two digit number ");
+else if (x < 1000)
+    Console.WriteLine("You chose a three digit number");
+else if (x <= 9999)
+    Console.WriteLine("You chose a four digit number");
+
+
+// mission 10
+
+Console.Write("Please enter a number between 1-9999: ");
+int x = int.Parse(Console.ReadLine());
+Console.Write("Please enter your height:");
+int y = int.Parse(Console.ReadLine());
+
+if (x <= 18 && x >= 14 || x >= 21 && x <= 24)
+{
+    Console.WriteLine("You are of the right age");
+}
+else if (x > 18 || x < 14 || x < 21 || x > 24)
+{
+    Console.WriteLine("You are of the wrong age");
+}
+if (y >= 182)
+    Console.WriteLine("You are high enought! ");
+else if (y < 182)
+    Console.WriteLine("You are too short! ");
+    
+    // mission 11
+    
+    Console.Write("Please enter a number: ");
+int x = int.Parse(Console.ReadLine());
+Console.Write("Please enter your a second number: ");
+int y = int.Parse(Console.ReadLine());
+Console.Write("Please enter a third number: ");
+int z = int.Parse(Console.ReadLine());
+
+if (x > y && x > z && y > z)
+    Console.WriteLine(z + " " + y + " " + x);
+else if (x > y && x > z && y < z)
+    Console.WriteLine(y + " " + z + " " + x);
+else if (y > z && y > x && x > z)
+    Console.WriteLine(z + " " + x + " " + y);
+else if (y > z && y > x && x < z)
+    Console.WriteLine(x + " " + z + " " + y);
+else if (z > x && z > y && x > y)
+    Console.WriteLine(y + " " + x + " " + z);
+else if (z > x && z > y && x < y)
+    Console.WriteLine(x + " " + y + " " + z);
+    
+    // end 
