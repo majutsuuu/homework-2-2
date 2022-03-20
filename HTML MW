@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMALS</title>
+</head>
+<body style="background-color: beige;">
+    <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">בעלי חיים</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7jUW96CiEKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div style="background-color: darksalmon;" >
+        <h2 style="color:blueviolet">בעלי כנף</h2><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bird_Diversity_2013.png/280px-Bird_Diversity_2013.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum quaerat vitae.</p>
+        <h3 style="color:cadetblue">דורסים</h3><img src="https://birdwatching.org.il/wp-content/uploads/2019/12/DSC_1056-1024x683.jpg">
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vel.</P>
+        <h4 style="color:chartreuse">דורסי לילה</h4><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Otus_scops_1_%28Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del%29.jpg/180px-Otus_scops_1_%28Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del%29.jpg">
+        <P>Lorem ipsum dolor sit amet.</P>
+        <H4 style="color:chartreuse">דורסי יום</H4><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Red-backed_Hawk_%28Buteo_polyosoma%29_1.jpg/230px-Red-backed_Hawk_%28Buteo_polyosoma%29_1.jpg">
+        <P>Lorem ipsum dolor sit.</P>
+        <h3 style="color:cadetblue">נדרסים</H3><img src="https://img.mako.co.il/2015/12/03/shaooppuyuy_2_i.jpg">
+            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta iusto ad repellendus? Impedit facilis esse doloribus quisquam beatae eaque quis!</P>
+        </div>
+        <div style="background-color:rgb(255, 238, 0);">
+        <H2 style="color:blueviolet">יונקים</H2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum quaerat vitae.</p>
+        <H3 style="color:cadetblue">יונקים גדולים</H3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Elephant_%28Loxodonta_Africana%29_05.jpg/275px-Elephant_%28Loxodonta_Africana%29_05.jpg">
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vel voluptate laudantium vitae nam commodi, corrupti voluptatum velit recusandae aspernatur.</P>
+        <H3 style="color:cadetblue">יונקים קטנים</H3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Arctic_hare.jpg/234px-Arctic_hare.jpg">
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus reiciendis voluptatibus aperiam dignissimos qui eveniet.</P>
+    </div>
+    <div style="background-color: rgb(43, 226, 226);">
+    <h2 style="color:rgb(61, 43, 226)">עולם המים</h2><img src="https://images.barewalls.com/comp/art-print-poster/bwc50179347/freshwater-aquarium-fishes-breeds-icon-set-flat-style-isolated-on-white-cyprinids.jpg?units=in&pw=8.0&ph=8.0&fit=True">
+    <p>Lorem ipsum dolor<span style="background-color:burlywood;"> sit amet consectetur adipisicing elit. Suscipit cupiditate</span> a sit error atque<span style="color:crimson"> inventore doloremque possimus expedita natus perspiciatis.</span>
+        <div class="registration" style="background-color:darkorange;">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        
+    
+            <button type="submit" class="registerbtn">Register</button>
+          </div>
+</body>
+</html>
