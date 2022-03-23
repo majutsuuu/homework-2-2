@@ -1,50 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        h1{text-align: center;}
+        h2{text-align: center;}
+        div{text-align: center;}
+        table{
+            border-spacing: 30px;}
+     
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANIMALS</title>
+    <title>Vikings</title>
 </head>
-<body style="background-color: beige;">
-    <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">בעלי חיים</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7jUW96CiEKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div style="background-color: darksalmon;" >
-        <h2 style="color:blueviolet">בעלי כנף</h2><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bird_Diversity_2013.png/280px-Bird_Diversity_2013.png">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum quaerat vitae.</p>
-        <h3 style="color:cadetblue">דורסים</h3><img src="https://birdwatching.org.il/wp-content/uploads/2019/12/DSC_1056-1024x683.jpg">
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vel.</P>
-        <h4 style="color:chartreuse">דורסי לילה</h4><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Otus_scops_1_%28Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del%29.jpg/180px-Otus_scops_1_%28Bohu%C5%A1_%C4%8C%C3%AD%C4%8Del%29.jpg">
-        <P>Lorem ipsum dolor sit amet.</P>
-        <H4 style="color:chartreuse">דורסי יום</H4><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Red-backed_Hawk_%28Buteo_polyosoma%29_1.jpg/230px-Red-backed_Hawk_%28Buteo_polyosoma%29_1.jpg">
-        <P>Lorem ipsum dolor sit.</P>
-        <h3 style="color:cadetblue">נדרסים</H3><img src="https://img.mako.co.il/2015/12/03/shaooppuyuy_2_i.jpg">
-            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta iusto ad repellendus? Impedit facilis esse doloribus quisquam beatae eaque quis!</P>
-        </div>
-        <div style="background-color:rgb(255, 238, 0);">
-        <H2 style="color:blueviolet">יונקים</H2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum quaerat vitae.</p>
-        <H3 style="color:cadetblue">יונקים גדולים</H3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Elephant_%28Loxodonta_Africana%29_05.jpg/275px-Elephant_%28Loxodonta_Africana%29_05.jpg">
-        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed vel voluptate laudantium vitae nam commodi, corrupti voluptatum velit recusandae aspernatur.</P>
-        <H3 style="color:cadetblue">יונקים קטנים</H3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Arctic_hare.jpg/234px-Arctic_hare.jpg">
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus reiciendis voluptatibus aperiam dignissimos qui eveniet.</P>
-    </div>
-    <div style="background-color: rgb(43, 226, 226);">
-    <h2 style="color:rgb(61, 43, 226)">עולם המים</h2><img src="https://images.barewalls.com/comp/art-print-poster/bwc50179347/freshwater-aquarium-fishes-breeds-icon-set-flat-style-isolated-on-white-cyprinids.jpg?units=in&pw=8.0&ph=8.0&fit=True">
-    <p>Lorem ipsum dolor<span style="background-color:burlywood;"> sit amet consectetur adipisicing elit. Suscipit cupiditate</span> a sit error atque<span style="color:crimson"> inventore doloremque possimus expedita natus perspiciatis.</span>
-        <div class="registration" style="background-color:darkorange;">
-            <h1>Register</h1>
-            <p>Please fill in this form to create an account.</p>
-            <hr>
-        
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" id="email" required>
-        
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-        
-    
-            <button type="submit" class="registerbtn">Register</button>
-          </div>
-</body>
-</html>
+<body style="background-color: rgba(164, 221, 248, 0.904);"></body>
+<h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">The Lothbroks</h1>
+    <table style="background-color: rgb(234, 245, 86);">
+        <tr>
+        <td><img src="http://cdn.shopify.com/s/files/1/1565/1123/articles/ragnar_vikings_grimfrost_1024x1024.jpg?v=1481295297" alt="ragnar" width="300"></td>
+        <td>
+        <h2>Ragnar Lothbrok</h2>
+        Ragnar "Lothbrok" Sigurdsson (Old Norse: Ragnarr Loðbrók, Ragnar means "keeper of the fort" and Lothbrok means "shaggy breeches") is a Viking farmer and warrior who yearns to raid the rumored riches of undiscovered England.
+         His first wife is Lagertha, and they have two children named Gyda and Bjorn.
+          His second wife is Aslaug, and they have four sons named Ubbe, Hvitserk, Sigurd, and Ivar.
+           Ragnar is the younger brother of Rollo.
+            He becomes King of Kattegat.</p>
+        </td>
+        </tr>
+    </table>
+    <table style="background-color: rgb(86, 245, 99);">
+        <tr>
+        <td><img src="https://i.pinimg.com/originals/30/87/ca/3087ca8227ba8e3ad7540ea74740d3ab.jpg" alt="lagertha" width="300"></td>
+        <td>
+        <h2>Lagertha Lothbrok</h2>
+        Lagertha was brought up by her father to be a shield-maiden.
+         At an unspecified time, Ragnar went to Lagertha's home to confess his love for her, but he was set upon by a bear and an enormous hound who guarded her home.
+          Ragnar killed the bear with his spear and strangled the hound with his bare hands, thus gaining her hand in marriage.
+           It is unknown if Ragnar's story is real or a child-friendly tale to his son Björn referencing his battle with Rollo, who was known as a "bear," over Lagertha's love, as Lagertha also had a relationship with Rollo and is unsure who Björn's biological father is.</p>
+        </td>
+        </tr>
+    </table>
+    <table style="background-color: rgb(86, 245, 99);">
+        <tr>
+        <td><img src="https://i.pinimg.com/originals/b4/9e/42/b49e425bfbdebe51c017ff4bc019e978.jpg" alt="aslaug" width="300"></td>
+        <td>
+        <h2>Aslaug Sigurdsdottir</h2>
+        Aslaug Sigurdsdottir is the second wife of Ragnar Lothbrok.
+         She is the former Queen of Kattegat and the mother of Ubbe, Hvitserk, Sigurd, and Ivar. 
+         She is believed to be a völva, meaning she can see the future through visions.
+          Aslaug is a Götaland princess. 
+          She is the clever and beautiful daughter of the famed dragon slayer Sigurd, a hero in the sagas who slew the dragon Fafnir, and shield-maiden Brynhildr.
+           Both of her parents died before she got to know either of them, and she learned social skills and refinement over a warrior's skills.                        </p>
+        </td>
+        </tr>
+    </table>
+    <table style="background-color: rgb(245, 110, 86);">
+        <tr>
+        <td><img src="https://qph.fs.quoracdn.net/main-qimg-c0257b5804f151f586e55a3ab4adc44c-pjlq" alt="Bjorn" width="300"></td>
+        <td>
+        <h2>Bjorn Lothbrok</h2>
+        Bjorn Lothbrok is the son of Ragnar and Lagertha and the oldest of Ragnar’s many sons.
+         Intelligent and determined, Bjorn loves and admires his father above all men.
+          Following in Ragnar’s footsteps, Bjorn desires to test himself as a fighter as well as an explorer.
+           After fighting in battle without receiving one wound or scratch, he garnered the famous nickname “Bjorn Ironside.”</p>
+        </td>
+        </tr>
+    </table>
+    <table style="background-color: rgb(97, 86, 245);">
+        <tr>
+        <td><img src="https://i.pinimg.com/736x/05/07/d0/0507d07c1c6b997738f4e6498fc9fdd1.jpg" alt="ivar" width="300"></td>
+        <td>
+        <h2>Ivar Lothbrok</h2>
+        <p>Son of Ragnar. Perhaps the most famous Viking of all time, his pathological cruelty was notorious even during his own lifetime.
+         Ivar is deeply ambitious and his ambitions will twist the legacy of his father out of shape, and create universal war. People are genuinely afraid of Ivar.</p>
+        </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+        <td><img src="https://www.therodd.com/wp-content/uploads/2021/06/202778114_2941129962843396_4329293488616885668_n.jpg" alt="ubbe" width="300"></td>
+        <td>
+        <h2>Ubbe Lothbrok</h2>
+        <p>         The oldest son by Ragnar and Aslaug, he has a paternalistic attitude towards his younger brothers.
+            Ubbe is a sensitive, thoughtful and attractive young man, in many ways the closest in outlook and instinct to his father Ragnar.</p>
+        </td>
+        </tr>
+    </table>
+    <h2 style="background-color: rgb(238, 5, 5);">The Intro</h2>
+<table>
+    <tr>
+        <td>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gmyCRJkKeKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            </td>
+    </tr>
+</table>
